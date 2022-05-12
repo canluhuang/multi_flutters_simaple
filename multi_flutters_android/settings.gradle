@@ -1,7 +1,7 @@
 pluginManagement {
     repositories {
         maven {
-            url '/Users/lukehuang/Work/Flutter/RFlutter/simple/multi_flutters_simaple/multi_flutters_module/build/host/outputs/repo'
+            url '../multi_flutters_module/build/host/outputs/repo'
         }
         maven {
             url "https://storage.googleapis.com/download.flutter.io"
@@ -15,7 +15,7 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         maven {
-            url './multi_flutters_simaple/multi_flutters_module/build/host/outputs/repo'
+            url '../multi_flutters_module/build/host/outputs/repo'
         }
         maven {
             url "https://storage.googleapis.com/download.flutter.io"
